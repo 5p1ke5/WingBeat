@@ -10,14 +10,14 @@
 
 #region Rooms
 #macro ROOM_TITLE room_title
-#macro ROOM_START room_test
+#macro ROOM_START room_overworld
 #endregion
 
 #region Constant numbers
 #macro STARTING_HP 3
 #macro TERMINAL_VELOCITY 20
 #macro MAX_ACCEL 3
-#macro JUMP_HEIGHT 4
+#macro JUMP_HEIGHT 2
 #macro PLAYER_WEIGHT 0.02
 #macro DEFAULT_ANGLE 300
 #macro FLICKER_MAX 5

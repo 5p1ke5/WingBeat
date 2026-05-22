@@ -124,23 +124,10 @@ function doll_draw()
 /// @param _jump If the doll should attempt to jump.
 /// @param _jumpOffset if the doll should offset their jump to jump higher.
 function doll_input_jump(_jump, _jumpOffset)
-{
-	
-	if (grounded)
-	{
-		multiJumps = maxMultiJumps;
-	}
-	
+{	
 	if (_jump) //Jumps
 	{
-		if (grounded) || (multiJumps > 0)
-		{
-			if (!grounded)
-			{
-				multiJumps--;
-			}
-			vsp = -jumpHeight;
-		}
+			vsp = phys_force_add(vsp, -jumpHeight, TERMINAL_VELOCITY)
 	} 
 
 	//Offsets gravity to allow for jump cancelling
