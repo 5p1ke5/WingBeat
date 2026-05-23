@@ -7,7 +7,6 @@
 /// @param _isSolid Whether the object stops when it collides with blocks.
 function phys_initialize(_grav = 0, _frict = 0, _hsp = 0, _vsp = 0, _isSolid = true) 
 {
-
 	//Initializes instance variables.
 	grav = _grav;
 	frict = _frict;
@@ -18,6 +17,38 @@ function phys_initialize(_grav = 0, _frict = 0, _hsp = 0, _vsp = 0, _isSolid = t
 	
 	//The object is considered grounded if they are directly above a block.
 	grounded = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom + 1, GROUND, false, true);
+}
+
+
+
+
+/// @function phys_step()
+/// @description Place in the step event to activate physics.
+function phys_step() 
+{
+	
+	//grav increases the object's downwards speed by raising vsp. Does not do so past the terminal velocity.
+	vsp = phys_gravity(vsp, grav, TERMINAL_VELOCITY);
+
+	//Friction will reduce horizontal speed. This is reduced while in the air.
+	hsp = phys_friction(hsp, frict, grounded);
+
+	//Collision with walls. The object's position is changed after each collision function.
+	if (isSolid)
+	{
+	    vsp = phys_floor_collision(vsp);
+	    hsp = phys_wall_collision(hsp);
+	}
+
+	y += round(vsp);
+	x += round(hsp);
+
+	//Checks if the object is on the ground.
+	grounded = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom + 1, GROUND, false, true);
+
+	
+	//x = round(x);
+	//y = round(y);
 }
 
 /// @function phys_force_add(_force, _accel, _max)
@@ -143,33 +174,3 @@ function phys_gravity(_vsp, _grav, _terminalVelocity)
 	return _vsp;
 }
 
-
-
-/// @function phys_step()
-/// @description Place in the step event to activate physics.
-function phys_step() 
-{
-	
-	//grav increases the object's downwards speed by raising vsp. Does not do so past the terminal velocity.
-	vsp = phys_gravity(vsp, grav, TERMINAL_VELOCITY);
-
-	//Friction will reduce horizontal speed. This is reduced while in the air.
-	hsp = phys_friction(hsp, frict, grounded);
-
-	//Collision with walls. The object's position is changed after each collision function.
-	if (isSolid)
-	{
-	    vsp = phys_floor_collision(vsp);
-	    hsp = phys_wall_collision(hsp);
-	}
-
-	y += round(vsp);
-	x += round(hsp);
-
-	//Checks if the object is on the ground.
-	grounded = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom + 1, GROUND, false, true);
-
-	
-	//x = round(x);
-	//y = round(y);
-}

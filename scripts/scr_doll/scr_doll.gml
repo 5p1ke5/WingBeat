@@ -105,16 +105,19 @@ function doll_animate()
 }
 
 
-///@function doll_draw()
-///@description Draws the sprites associated with the doll.
-function doll_draw()
+/// @function doll_draw()
+/// @description Draws the sprites associated with the doll.
+/// @param _x X coordinate to draw at. Defaults to doll's x coordinate.
+/// @param _y Y coordinate to draw at. Defaults to doll's y coordinate.
+/// @param _color Color to draw everything as. If left blank will default to doll's normal looks.
+function doll_draw(_x = x, _y = y, _color = noone)
 {
-	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, skinColor, 1);
-	draw_sprite_ext(faceSprite, faceIndex, x, y, image_xscale, image_yscale, image_angle, c_white, 1);
-	draw_sprite_ext(hairSprite, hairIndex, x, y, image_xscale, image_yscale, image_angle, hairColor, 1);
-	draw_sprite_ext(pantsSprite, image_index, x, y, image_xscale, image_yscale, image_angle, pantsColor, 1);
-	draw_sprite_ext(shirtSprite, shirtIndex, x, y, image_xscale, image_yscale, image_angle, shirtColor, 1);
-	draw_sprite_ext(shoeSprite, image_index, x, y, image_xscale, image_yscale, image_angle, shoeColor, 1);
+	draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale, image_yscale, image_angle, skinColor, 1);
+	draw_sprite_ext(faceSprite, faceIndex, _x, _y, image_xscale, image_yscale, image_angle, c_white, 1);
+	draw_sprite_ext(hairSprite, hairIndex, _x, _y, image_xscale, image_yscale, image_angle, hairColor, 1);
+	draw_sprite_ext(pantsSprite, image_index, _x, _y, image_xscale, image_yscale, image_angle, pantsColor, 1);
+	draw_sprite_ext(shirtSprite, shirtIndex, _x, _y, image_xscale, image_yscale, image_angle, shirtColor, 1);
+	draw_sprite_ext(shoeSprite, image_index, _x, _y, image_xscale, image_yscale, image_angle, shoeColor, 1);
 }
 
 //These function take input to issue commands to the doll. The function vets the commands, and if the conditions are met performs the action.
@@ -127,7 +130,7 @@ function doll_input_jump(_jump, _jumpOffset)
 {	
 	if (_jump) //Jumps
 	{
-			vsp = phys_force_add(vsp, -jumpHeight, TERMINAL_VELOCITY)
+		vsp = phys_force_add(vsp, -jumpHeight, TERMINAL_VELOCITY)
 	} 
 
 	//Offsets gravity to allow for jump cancelling
@@ -160,6 +163,53 @@ function doll_input_move(_right, _left, _run)
 
 
 
+
+/// @function doll_input_dash(_rightReleased, _leftReleased)
+/// @descr Decrements dash input cooldowns. If right or left bttton is released before cooldown expires, performs a dash.
+/// @param _rightReleased right button released
+/// @param _leftReleased left button released
+function doll_input_dash(_rightReleased, _leftReleased)
+{
+	if (dashCD > 0)
+	{	
+		dashCD--;	
+		return;	
+	}
+	
+	//decrement timers
+	if (dashInputRCD > 0) 
+	{ 
+		if (_rightReleased)
+		{
+			//dash
+			hsp = DASH_SPEED;
+			dashCD = DASH_CD;
+		}
+		dashInputRCD-- 
+	}
+	
+	//decrement timers
+	if (dashInputLCD > 0) 
+	{ 
+		if (_leftReleased)
+		{
+			//dash
+			hsp = -DASH_SPEED;
+			dashCD = DASH_CD;
+		}
+		dashInputLCD-- 
+	}
+	
+	if (_rightReleased)
+	{
+		dashInputRCD = DASH_INPUT_CD;	
+	}
+	
+	if (_leftReleased)
+	{
+		dashInputLCD = DASH_INPUT_CD;	
+	}
+}
 
 
 

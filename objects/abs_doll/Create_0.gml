@@ -1,6 +1,7 @@
 /// @description Initializes variables, position at spawn.
 
 phys_initialize(0.2, 0.2);
+hitbox_initialize([]);
 
 //Doll movement control things.
 hDir = 0; //Horizontal movement direction.
@@ -8,8 +9,9 @@ facing = 1; //Direction facing. Should always be 1 or -1.
 maxSpeed = 3; 
 accel = 0.5;
 
-maxMultiJumps = 5;
-multiJumps = maxMultiJumps;
+dashCD = -1;
+dashInputLCD = -1;
+dashInputRCD = -1;
 jumpHeight = 4;
 jumpOffset = 0.1; //This is applied to gravity to let the player jump higher while holding the jump button.
 
