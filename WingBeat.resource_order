@@ -66,6 +66,7 @@
     {"name":"scr_macros","order":6,"path":"scripts/scr_macros/scr_macros.yy",},
     {"name":"scr_menu","order":7,"path":"scripts/scr_menu/scr_menu.yy",},
     {"name":"scr_meter","order":12,"path":"scripts/scr_meter/scr_meter.yy",},
+    {"name":"scr_npc","order":13,"path":"scripts/scr_npc/scr_npc.yy",},
     {"name":"scr_phys","order":8,"path":"scripts/scr_phys/scr_phys.yy",},
     {"name":"sfx_dash","order":2,"path":"sounds/sfx_dash/sfx_dash.yy",},
     {"name":"sfx_flap","order":1,"path":"sounds/sfx_flap/sfx_flap.yy",},

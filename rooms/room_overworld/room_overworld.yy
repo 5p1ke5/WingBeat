@@ -63,7 +63,7 @@
     "Height":5120,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":10024,
+    "Width":10240,
   },
   "sequenceId":null,
   "views":[
