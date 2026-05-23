@@ -3,6 +3,7 @@
     {"name":"Audio","order":6,"path":"folders/Audio.yy",},
     {"name":"SFX","order":1,"path":"folders/Audio/SFX.yy",},
     {"name":"Fonts","order":5,"path":"folders/Fonts.yy",},
+    {"name":"TileSets","order":8,"path":"folders/TileSets.yy",},
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
     {"name":"abstract","order":1,"path":"folders/Objects/abstract.yy",},
     {"name":"blocks","order":3,"path":"folders/Objects/blocks.yy",},
@@ -22,7 +23,11 @@
     {"name":"pants","order":1,"path":"folders/Sprites/dolls/clothes/pants.yy",},
     {"name":"shoes","order":2,"path":"folders/Sprites/dolls/clothes/shoes.yy",},
     {"name":"wings","order":5,"path":"folders/Sprites/dolls/wings.yy",},
+<<<<<<< HEAD
+    {"name":"TileSet","order":7,"path":"folders/Sprites/TileSet.yy",},
+=======
     {"name":"gui","order":6,"path":"folders/Sprites/gui.yy",},
+>>>>>>> c6effe2bd8198f3be478914d3efaadca3d2211a3
     {"name":"UI","order":3,"path":"folders/Sprites/UI.yy",},
   ],
   "ResourceOrderSettings":[
@@ -102,5 +107,6 @@
     {"name":"spr_oneWayTreeLeaves","order":14,"path":"sprites/spr_oneWayTreeLeaves/spr_oneWayTreeLeaves.yy",},
     {"name":"spr_uiButton","order":2,"path":"sprites/spr_uiButton/spr_uiButton.yy",},
     {"name":"spr_uiTextField","order":1,"path":"sprites/spr_uiTextField/spr_uiTextField.yy",},
+    {"name":"Sprite42","order":15,"path":"sprites/Sprite42/Sprite42.yy",},
   ],
 }
