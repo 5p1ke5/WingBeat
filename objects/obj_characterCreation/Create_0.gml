@@ -5,6 +5,8 @@ var _doll = global.playerDoll;
 doll_initialize(_doll.faceIndex, _doll.hairIndex, _doll.shirtIndex, _doll.pantsIndex, _doll.shoeIndex, 
 			_doll.skinColor, _doll.hairColor, _doll.shirtColor, _doll.pantsColor, _doll.shoeColor);
 
+grounded = true;
+
 var _array;
 _array[0] = "FACE: " + string(faceIndex);
 _array[1] = "HAIR: " + string(hairIndex);

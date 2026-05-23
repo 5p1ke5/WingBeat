@@ -110,6 +110,12 @@
 
 #endregion
 
+
+#region //Sprite references
+#macro PANTS_ARRAY [spr_dollPants0, spr_dollPants1]
+#macro SHOES_ARRAY [spr_dollShoes0, spr_dollShoes1]
+#endregion
+
 enum REMATCH 
 {
 	UNDECIDED, 

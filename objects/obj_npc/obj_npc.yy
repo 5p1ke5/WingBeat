@@ -1,22 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"obj_characterCreation",
+  "%Name":"obj_npc",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_characterCreation",
+  "name":"obj_npc",
   "overriddenProperties":[],
   "parent":{
-    "name":"character creation",
-    "path":"folders/Objects/menus/character creation.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"abs_menu",
-    "path":"objects/abs_menu/abs_menu.yy",
+    "name":"abs_doll",
+    "path":"objects/abs_doll/abs_doll.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -39,6 +39,9 @@
     "name":"spr_doll",
     "path":"sprites/spr_doll/spr_doll.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_doll",
+    "path":"sprites/spr_doll/spr_doll.yy",
+  },
   "visible":true,
 }
