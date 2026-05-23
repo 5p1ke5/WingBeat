@@ -111,6 +111,7 @@
     {"id":{"name":"spr_oneWayBadlands","path":"sprites/spr_oneWayBadlands/spr_oneWayBadlands.yy",},},
     {"id":{"name":"spr_onewayDowntown","path":"sprites/spr_onewayDowntown/spr_onewayDowntown.yy",},},
     {"id":{"name":"spr_onewayIndustrial","path":"sprites/spr_onewayIndustrial/spr_onewayIndustrial.yy",},},
+    {"id":{"name":"spr_oneWayNew","path":"sprites/spr_oneWayNew/spr_oneWayNew.yy",},},
     {"id":{"name":"spr_oneWayPlains","path":"sprites/spr_oneWayPlains/spr_oneWayPlains.yy",},},
     {"id":{"name":"spr_oneWaySuburbs","path":"sprites/spr_oneWaySuburbs/spr_oneWaySuburbs.yy",},},
     {"id":{"name":"spr_overworldBG","path":"sprites/spr_overworldBG/spr_overworldBG.yy",},},
