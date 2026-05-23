@@ -142,7 +142,7 @@ switch (optionSelected)
 		{
 			audio_stop_sound(global.bgm);
 			global.playerDoll = doll_struct(faceIndex, hairIndex, shirtIndex, pantsIndex, shoeIndex, skinColor, hairColor, shirtColor, pantsColor, shoeColor);
-			room_goto(ROOM_START);
+			room_goto(ROOM_INTRO_SCREEN);
 		}
 	break;
 }

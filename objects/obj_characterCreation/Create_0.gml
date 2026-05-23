@@ -1,7 +1,5 @@
 /// @description Initialize variables.
 
-grounded = true;
-
 var _doll = global.playerDoll;
 
 doll_initialize(_doll.faceIndex, _doll.hairIndex, _doll.shirtIndex, _doll.pantsIndex, _doll.shoeIndex, 

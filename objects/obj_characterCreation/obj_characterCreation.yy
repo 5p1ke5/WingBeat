@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_doll",
-    "path":"sprites/spr_doll/spr_doll.yy",
+    "name":"spr_doll1",
+    "path":"sprites/spr_doll1/spr_doll1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
