@@ -114,6 +114,7 @@ function doll_draw(_x = x, _y = y, _color = noone, _alpha = 1)
 {
 	if (_color == noone)
 	{
+		draw_sprite_ext(spr_wings, image_index, _x, _y, image_xscale, image_yscale, image_angle, c_white, _alpha);
 		draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale, image_yscale, image_angle, skinColor, _alpha);
 		draw_sprite_ext(faceSprite, faceIndex, _x, _y, image_xscale, image_yscale, image_angle, c_white, _alpha);
 		draw_sprite_ext(hairSprite, hairIndex, _x, _y, image_xscale, image_yscale, image_angle, hairColor, _alpha);
@@ -123,6 +124,7 @@ function doll_draw(_x = x, _y = y, _color = noone, _alpha = 1)
 	}
 	else
 	{
+		draw_sprite_ext(spr_wings, image_index, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
 		draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
 		draw_sprite_ext(faceSprite, faceIndex, _x, _y, image_xscale, image_yscale, image_angle, c_white, _alpha);
 		draw_sprite_ext(hairSprite, hairIndex, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);

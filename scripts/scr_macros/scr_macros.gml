@@ -16,13 +16,11 @@
 #region Constant numbers
 #macro STARTING_HP 3
 #macro TERMINAL_VELOCITY 20
-#macro MAX_ACCEL 3
-#macro JUMP_HEIGHT 2
+#macro MAX_SPEED 3
+#macro JUMP_HEIGHT 4
 #macro DASH_SPEED 10
 #macro DASH_CD (game_get_speed(gamespeed_fps) * 2 / 3)
 #macro DASH_INPUT_CD (game_get_speed(gamespeed_fps) / 2)
-#macro PLAYER_WEIGHT 0.02
-#macro DEFAULT_ANGLE 300
 #macro FLICKER_MAX 5
 #macro TEXT_BALLOON_SPEED 5
 #macro TEXT_BALLOON_MAXW 150
