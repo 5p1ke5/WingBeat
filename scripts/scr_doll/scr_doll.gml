@@ -112,9 +112,16 @@ function doll_animate()
 /// @param _color Color to draw everything as. If left blank will default to doll's normal looks.
 function doll_draw(_x = x, _y = y, _color = noone, _alpha = 1)
 {
+	var _wingFrame = 0;
+	
+	if (!grounded)
+	{
+		_wingFrame = ++wingFrame;
+	}
+	
 	if (_color == noone)
 	{
-		draw_sprite_ext(spr_wings, image_index, _x, _y, image_xscale, image_yscale, image_angle, c_white, _alpha);
+		draw_sprite_ext(spr_wings, _wingFrame, _x, _y, image_xscale, image_yscale, image_angle, c_white, _alpha);
 		draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale, image_yscale, image_angle, skinColor, _alpha);
 		draw_sprite_ext(faceSprite, faceIndex, _x, _y, image_xscale, image_yscale, image_angle, c_white, _alpha);
 		draw_sprite_ext(hairSprite, hairIndex, _x, _y, image_xscale, image_yscale, image_angle, hairColor, _alpha);
@@ -124,7 +131,7 @@ function doll_draw(_x = x, _y = y, _color = noone, _alpha = 1)
 	}
 	else
 	{
-		draw_sprite_ext(spr_wings, image_index, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
+		draw_sprite_ext(spr_wings, _wingFrame, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
 		draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
 		draw_sprite_ext(faceSprite, faceIndex, _x, _y, image_xscale, image_yscale, image_angle, c_white, _alpha);
 		draw_sprite_ext(hairSprite, hairIndex, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);

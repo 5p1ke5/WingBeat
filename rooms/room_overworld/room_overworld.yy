@@ -8,8 +8,6 @@
   "instanceCreationOrder":[
     {"name":"inst_4655CB9D1","path":"rooms/room_overworld/room_overworld.yy",},
     {"name":"inst_68B87BC4_1","path":"rooms/room_overworld/room_overworld.yy",},
-    {"name":"inst_22B87F4E","path":"rooms/room_overworld/room_overworld.yy",},
-    {"name":"inst_25432CEB","path":"rooms/room_overworld/room_overworld.yy",},
     {"name":"inst_74070CE6","path":"rooms/room_overworld/room_overworld.yy",},
     {"name":"inst_3C4C1D12","path":"rooms/room_overworld/room_overworld.yy",},
     {"name":"inst_208257C8","path":"rooms/room_overworld/room_overworld.yy",},
@@ -27,8 +25,6 @@
       ],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Blocks","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_4655CB9D1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4655CB9D1","objectId":{"name":"obj_blockPlains","path":"objects/obj_blockPlains/obj_blockPlains.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":24.666666,"scaleY":2.0,"x":144.0,"y":1120.0,},
-        {"$GMRInstance":"v4","%Name":"inst_22B87F4E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_22B87F4E","objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":44.5,"x":-64.0,"y":-176.0,},
-        {"$GMRInstance":"v4","%Name":"inst_25432CEB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25432CEB","objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":44.5,"x":5120.0,"y":-160.0,},
         {"$GMRInstance":"v4","%Name":"inst_74070CE6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_74070CE6","objectId":{"name":"obj_blockBadlands","path":"objects/obj_blockBadlands/obj_blockBadlands.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":20.0,"scaleY":1.3333334,"x":3920.0,"y":768.0,},
         {"$GMRInstance":"v4","%Name":"inst_3C4C1D12","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3C4C1D12","objectId":{"name":"obj_blockIndustrial","path":"objects/obj_blockIndustrial/obj_blockIndustrial.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":18.333334,"scaleY":2.3333333,"x":1152.0,"y":1792.0,},
         {"$GMRInstance":"v4","%Name":"inst_208257C8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_208257C8","objectId":{"name":"obj_blockSuburbs","path":"objects/obj_blockSuburbs/obj_blockSuburbs.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":31.666666,"scaleY":12.333333,"x":2448.0,"y":2256.0,},
@@ -57,10 +53,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":2560,
+    "Height":5120,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":5120,
+    "Width":10024,
   },
   "sequenceId":null,
   "views":[
