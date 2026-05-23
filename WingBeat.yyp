@@ -28,6 +28,7 @@
     {"$GMFolder":"","%Name":"pants","folderPath":"folders/Sprites/dolls/clothes/pants.yy","name":"pants","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"shoes","folderPath":"folders/Sprites/dolls/clothes/shoes.yy","name":"shoes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"wings","folderPath":"folders/Sprites/dolls/wings.yy","name":"wings","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Decor","folderPath":"folders/Sprites/Decor.yy","name":"Decor","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Sprites/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
@@ -35,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.15",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"WingBeat",
   "resources":[
@@ -115,6 +116,7 @@
     {"id":{"name":"spr_oneWayPlains","path":"sprites/spr_oneWayPlains/spr_oneWayPlains.yy",},},
     {"id":{"name":"spr_oneWaySuburbs","path":"sprites/spr_oneWaySuburbs/spr_oneWaySuburbs.yy",},},
     {"id":{"name":"spr_overworldBG","path":"sprites/spr_overworldBG/spr_overworldBG.yy",},},
+    {"id":{"name":"spr_treeLog","path":"sprites/spr_treeLog/spr_treeLog.yy",},},
     {"id":{"name":"spr_uiButton","path":"sprites/spr_uiButton/spr_uiButton.yy",},},
     {"id":{"name":"spr_uiTextField","path":"sprites/spr_uiTextField/spr_uiTextField.yy",},},
     {"id":{"name":"spr_wings","path":"sprites/spr_wings/spr_wings.yy",},},

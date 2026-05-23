@@ -18,6 +18,7 @@
     {"name":"pants","order":1,"path":"folders/Sprites/dolls/clothes/pants.yy",},
     {"name":"shoes","order":2,"path":"folders/Sprites/dolls/clothes/shoes.yy",},
     {"name":"wings","order":5,"path":"folders/Sprites/dolls/wings.yy",},
+    {"name":"Decor","order":5,"path":"folders/Sprites/Decor.yy",},
     {"name":"UI","order":3,"path":"folders/Sprites/UI.yy",},
   ],
   "ResourceOrderSettings":[
