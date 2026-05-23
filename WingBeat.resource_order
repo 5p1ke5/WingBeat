@@ -3,6 +3,7 @@
     {"name":"Audio","order":6,"path":"folders/Audio.yy",},
     {"name":"SFX","order":1,"path":"folders/Audio/SFX.yy",},
     {"name":"Fonts","order":5,"path":"folders/Fonts.yy",},
+    {"name":"TileSets","order":8,"path":"folders/TileSets.yy",},
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
     {"name":"abstract","order":1,"path":"folders/Objects/abstract.yy",},
     {"name":"blocks","order":3,"path":"folders/Objects/blocks.yy",},
@@ -100,7 +101,9 @@
     {"name":"spr_oneWayPlains","order":11,"path":"sprites/spr_oneWayPlains/spr_oneWayPlains.yy",},
     {"name":"spr_oneWaySuburbs","order":12,"path":"sprites/spr_oneWaySuburbs/spr_oneWaySuburbs.yy",},
     {"name":"spr_oneWayTreeLeaves","order":14,"path":"sprites/spr_oneWayTreeLeaves/spr_oneWayTreeLeaves.yy",},
+    {"name":"spr_treeBranch","order":7,"path":"sprites/spr_treeBranch/spr_treeBranch.yy",},
     {"name":"spr_uiButton","order":2,"path":"sprites/spr_uiButton/spr_uiButton.yy",},
     {"name":"spr_uiTextField","order":1,"path":"sprites/spr_uiTextField/spr_uiTextField.yy",},
+    {"name":"TileSet1","order":7,"path":"tilesets/TileSet1/TileSet1.yy",},
   ],
 }
