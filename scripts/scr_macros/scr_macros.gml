@@ -10,6 +10,7 @@
 
 #region Rooms
 #macro ROOM_TITLE room_title
+#macro ROOM_CHARACTERCREATE room_characterCreation
 #macro ROOM_START room_overworld
 #endregion
 

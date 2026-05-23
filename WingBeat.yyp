@@ -87,6 +87,7 @@
     {"id":{"name":"scr_label","path":"scripts/scr_label/scr_label.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"scr_menu","path":"scripts/scr_menu/scr_menu.yy",},},
+    {"id":{"name":"scr_meter","path":"scripts/scr_meter/scr_meter.yy",},},
     {"id":{"name":"scr_phys","path":"scripts/scr_phys/scr_phys.yy",},},
     {"id":{"name":"sfx_dash","path":"sounds/sfx_dash/sfx_dash.yy",},},
     {"id":{"name":"sfx_flap","path":"sounds/sfx_flap/sfx_flap.yy",},},
