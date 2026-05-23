@@ -110,14 +110,27 @@ function doll_animate()
 /// @param _x X coordinate to draw at. Defaults to doll's x coordinate.
 /// @param _y Y coordinate to draw at. Defaults to doll's y coordinate.
 /// @param _color Color to draw everything as. If left blank will default to doll's normal looks.
-function doll_draw(_x = x, _y = y, _color = noone)
+function doll_draw(_x = x, _y = y, _color = noone, _alpha = 1)
 {
-	draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale, image_yscale, image_angle, skinColor, 1);
-	draw_sprite_ext(faceSprite, faceIndex, _x, _y, image_xscale, image_yscale, image_angle, c_white, 1);
-	draw_sprite_ext(hairSprite, hairIndex, _x, _y, image_xscale, image_yscale, image_angle, hairColor, 1);
-	draw_sprite_ext(pantsSprite, image_index, _x, _y, image_xscale, image_yscale, image_angle, pantsColor, 1);
-	draw_sprite_ext(shirtSprite, shirtIndex, _x, _y, image_xscale, image_yscale, image_angle, shirtColor, 1);
-	draw_sprite_ext(shoeSprite, image_index, _x, _y, image_xscale, image_yscale, image_angle, shoeColor, 1);
+	if (_color == noone)
+	{
+		draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale, image_yscale, image_angle, skinColor, _alpha);
+		draw_sprite_ext(faceSprite, faceIndex, _x, _y, image_xscale, image_yscale, image_angle, c_white, _alpha);
+		draw_sprite_ext(hairSprite, hairIndex, _x, _y, image_xscale, image_yscale, image_angle, hairColor, _alpha);
+		draw_sprite_ext(pantsSprite, image_index, _x, _y, image_xscale, image_yscale, image_angle, pantsColor, _alpha);
+		draw_sprite_ext(shirtSprite, shirtIndex, _x, _y, image_xscale, image_yscale, image_angle, shirtColor, _alpha);
+		draw_sprite_ext(shoeSprite, image_index, _x, _y, image_xscale, image_yscale, image_angle, shoeColor, _alpha);
+	}
+	else
+	{
+		draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
+		draw_sprite_ext(faceSprite, faceIndex, _x, _y, image_xscale, image_yscale, image_angle, c_white, _alpha);
+		draw_sprite_ext(hairSprite, hairIndex, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
+		draw_sprite_ext(pantsSprite, image_index, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
+		draw_sprite_ext(shirtSprite, shirtIndex, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
+		draw_sprite_ext(shoeSprite, image_index, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
+	}
+
 }
 
 //These function take input to issue commands to the doll. The function vets the commands, and if the conditions are met performs the action.

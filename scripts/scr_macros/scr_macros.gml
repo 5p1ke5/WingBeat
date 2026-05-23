@@ -19,7 +19,7 @@
 #macro MAX_ACCEL 3
 #macro JUMP_HEIGHT 2
 #macro DASH_SPEED 10
-#macro DASH_CD (game_get_speed(gamespeed_fps) / 2)
+#macro DASH_CD (game_get_speed(gamespeed_fps) * 2 / 3)
 #macro DASH_INPUT_CD (game_get_speed(gamespeed_fps) / 2)
 #macro PLAYER_WEIGHT 0.02
 #macro DEFAULT_ANGLE 300
