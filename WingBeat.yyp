@@ -10,6 +10,8 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Audio","folderPath":"folders/Audio.yy","name":"Audio","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"SFX","folderPath":"folders/Audio/SFX.yy","name":"SFX","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"abstract","folderPath":"folders/Objects/abstract.yy","name":"abstract","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -74,6 +76,9 @@
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"scr_menu","path":"scripts/scr_menu/scr_menu.yy",},},
     {"id":{"name":"scr_phys","path":"scripts/scr_phys/scr_phys.yy",},},
+    {"id":{"name":"sfx_dash","path":"sounds/sfx_dash/sfx_dash.yy",},},
+    {"id":{"name":"sfx_flap","path":"sounds/sfx_flap/sfx_flap.yy",},},
+    {"id":{"name":"sfx_jump","path":"sounds/sfx_jump/sfx_jump.yy",},},
     {"id":{"name":"spr_armA","path":"sprites/spr_armA/spr_armA.yy",},},
     {"id":{"name":"spr_armB","path":"sprites/spr_armB/spr_armB.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},

@@ -1,4 +1,4 @@
-/// @description Inerhits, initiralizes variables, position at spawn.
+/// @description Inherits, initiralizes variables, position at spawn.
 
 event_inherited();
 

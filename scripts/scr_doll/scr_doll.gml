@@ -145,6 +145,8 @@ function doll_input_jump(_jump, _jumpOffset)
 {	
 	if (_jump) //Jumps
 	{
+		if (grounded)	{ audio_play_sound(sfx_jump, 0, false) }
+		else			{ audio_play_sound(sfx_flap, 0, false) }
 		vsp = phys_force_add(vsp, -jumpHeight, TERMINAL_VELOCITY)
 	} 
 
@@ -199,6 +201,7 @@ function doll_input_dash(_rightReleased, _leftReleased)
 			//dash
 			hsp = DASH_SPEED;
 			dashCD = DASH_CD;
+			audio_play_sound(sfx_dash, 0, false);
 		}
 		dashInputRCD-- 
 	}
@@ -211,6 +214,7 @@ function doll_input_dash(_rightReleased, _leftReleased)
 			//dash
 			hsp = -DASH_SPEED;
 			dashCD = DASH_CD;
+			audio_play_sound(sfx_dash, 0, false);
 		}
 		dashInputLCD-- 
 	}
