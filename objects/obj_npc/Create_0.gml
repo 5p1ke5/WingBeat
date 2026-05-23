@@ -4,3 +4,5 @@ event_inherited();
 
 var _doll = global.playerDoll;
 doll_initialize(0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+
+npc_initialize("Ben", "Hello!");
