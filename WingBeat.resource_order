@@ -31,7 +31,6 @@
     {"name":"abs_ground","order":2,"path":"objects/abs_ground/abs_ground.yy",},
     {"name":"abs_menu","order":3,"path":"objects/abs_menu/abs_menu.yy",},
     {"name":"abs_physics","order":1,"path":"objects/abs_physics/abs_physics.yy",},
-    {"name":"abs_physics1","order":4,"path":"objects/abs_physics1/abs_physics1.yy",},
     {"name":"obj_blockBadlands","order":1,"path":"objects/obj_blockBadlands/obj_blockBadlands.yy",},
     {"name":"obj_blockCheckers","order":2,"path":"objects/obj_blockCheckers/obj_blockCheckers.yy",},
     {"name":"obj_blockDowntown","order":3,"path":"objects/obj_blockDowntown/obj_blockDowntown.yy",},
