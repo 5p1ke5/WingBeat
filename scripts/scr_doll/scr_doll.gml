@@ -122,6 +122,7 @@ function doll_draw(_x = x, _y = y, _color = noone, _alpha = 1)
 	
 	if (_color == noone)
 	{
+		draw_sprite_ext(armSpriteB, image_index, _x, _y, image_xscale, image_yscale, image_angle, skinColor, _alpha);
 		draw_sprite_ext(spr_wings, _wingFrame, _x, _y, image_xscale, image_yscale, image_angle, c_white, _alpha);
 		draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale, image_yscale, image_angle, skinColor, _alpha);
 		draw_sprite_ext(faceSprite, faceIndex, _x, _y, image_xscale, image_yscale, image_angle, c_white, _alpha);
@@ -129,9 +130,11 @@ function doll_draw(_x = x, _y = y, _color = noone, _alpha = 1)
 		draw_sprite_ext(pantsSprite, image_index, _x, _y, image_xscale, image_yscale, image_angle, pantsColor, _alpha);
 		draw_sprite_ext(shirtSprite, shirtIndex, _x, _y, image_xscale, image_yscale, image_angle, shirtColor, _alpha);
 		draw_sprite_ext(shoeSprite, image_index, _x, _y, image_xscale, image_yscale, image_angle, shoeColor, _alpha);
+		draw_sprite_ext(armSpriteA, image_index, _x, _y, image_xscale, image_yscale, image_angle, skinColor, _alpha);
 	}
 	else
 	{
+		draw_sprite_ext(armSpriteB, image_index, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
 		draw_sprite_ext(spr_wings, _wingFrame, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
 		draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
 		draw_sprite_ext(faceSprite, faceIndex, _x, _y, image_xscale, image_yscale, image_angle, c_white, _alpha);
@@ -139,6 +142,7 @@ function doll_draw(_x = x, _y = y, _color = noone, _alpha = 1)
 		draw_sprite_ext(pantsSprite, image_index, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
 		draw_sprite_ext(shirtSprite, shirtIndex, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
 		draw_sprite_ext(shoeSprite, image_index, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
+		draw_sprite_ext(armSpriteA, image_index, _x, _y, image_xscale, image_yscale, image_angle, _color, _alpha);
 	}
 
 }

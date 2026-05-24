@@ -16,6 +16,7 @@
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"abstract","folderPath":"folders/Objects/abstract.yy","name":"abstract","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"blocks","folderPath":"folders/Objects/blocks.yy","name":"blocks","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Zones","folderPath":"folders/Objects/Zones.yy","name":"Zones","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"menus","folderPath":"folders/Objects/menus.yy","name":"menus","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"character creation","folderPath":"folders/Objects/menus/character creation.yy","name":"character creation","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"npcs","folderPath":"folders/Objects/npcs.yy","name":"npcs","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -43,7 +44,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.15",
   },
   "name":"WingBeat",
   "resources":[
