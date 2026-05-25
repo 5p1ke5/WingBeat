@@ -46,7 +46,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.15",
   },
   "name":"WingBeat",
   "resources":[
@@ -55,6 +55,7 @@
     {"id":{"name":"fnt_speech","path":"fonts/fnt_speech/fnt_speech.yy",},},
     {"id":{"name":"abs_colorSlider","path":"objects/abs_colorSlider/abs_colorSlider.yy",},},
     {"id":{"name":"abs_doll","path":"objects/abs_doll/abs_doll.yy",},},
+    {"id":{"name":"abs_enemy","path":"objects/abs_enemy/abs_enemy.yy",},},
     {"id":{"name":"abs_ground","path":"objects/abs_ground/abs_ground.yy",},},
     {"id":{"name":"abs_menu","path":"objects/abs_menu/abs_menu.yy",},},
     {"id":{"name":"abs_physics","path":"objects/abs_physics/abs_physics.yy",},},
@@ -64,6 +65,7 @@
     {"id":{"name":"obj_blockDowntown","path":"objects/obj_blockDowntown/obj_blockDowntown.yy",},},
     {"id":{"name":"obj_blockIndustrial","path":"objects/obj_blockIndustrial/obj_blockIndustrial.yy",},},
     {"id":{"name":"obj_blockPlains","path":"objects/obj_blockPlains/obj_blockPlains.yy",},},
+    {"id":{"name":"obj_blockStoneblock","path":"objects/obj_blockStoneblock/obj_blockStoneblock.yy",},},
     {"id":{"name":"obj_blockSuburbs","path":"objects/obj_blockSuburbs/obj_blockSuburbs.yy",},},
     {"id":{"name":"obj_characterCreation","path":"objects/obj_characterCreation/obj_characterCreation.yy",},},
     {"id":{"name":"obj_colorSliderBlue","path":"objects/obj_colorSliderBlue/obj_colorSliderBlue.yy",},},
@@ -81,7 +83,6 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_speechBalloon","path":"objects/obj_speechBalloon/obj_speechBalloon.yy",},},
     {"id":{"name":"obj_spikyBoy","path":"objects/obj_spikyBoy/obj_spikyBoy.yy",},},
-    {"id":{"name":"obj_stoneBrick","path":"objects/obj_stoneBrick/obj_stoneBrick.yy",},},
     {"id":{"name":"obj_textField","path":"objects/obj_textField/obj_textField.yy",},},
     {"id":{"name":"obj_uiButton","path":"objects/obj_uiButton/obj_uiButton.yy",},},
     {"id":{"name":"obj_zone","path":"objects/obj_zone/obj_zone.yy",},},

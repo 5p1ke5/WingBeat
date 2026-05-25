@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spikyBoy",
+  "%Name":"abs_enemy",
   "eventList":[],
   "managed":true,
-  "name":"obj_spikyBoy",
+  "name":"abs_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"abstract",
+    "path":"folders/Objects/abstract.yy",
   },
-  "parentObjectId":{
-    "name":"abs_enemy",
-    "path":"objects/abs_enemy/abs_enemy.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,11 +26,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"spr_spikyBoy",
-    "path":"sprites/spr_spikyBoy/spr_spikyBoy.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

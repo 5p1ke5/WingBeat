@@ -1,6 +1,6 @@
 /// @description Initializes variables, position at spawn.
 
-hitbox_initialize([]);
+hitbox_initialize([abs_enemy]);
 
 
 phys_initialize(0.2, 0.2);

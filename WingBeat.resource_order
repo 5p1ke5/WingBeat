@@ -34,6 +34,7 @@
   "ResourceOrderSettings":[
     {"name":"fnt_gothic","order":1,"path":"fonts/fnt_gothic/fnt_gothic.yy",},
     {"name":"fnt_speech","order":2,"path":"fonts/fnt_speech/fnt_speech.yy",},
+    {"name":"abs_enemy","order":4,"path":"objects/abs_enemy/abs_enemy.yy",},
     {"name":"abs_ground","order":2,"path":"objects/abs_ground/abs_ground.yy",},
     {"name":"abs_menu","order":3,"path":"objects/abs_menu/abs_menu.yy",},
     {"name":"abs_physics","order":1,"path":"objects/abs_physics/abs_physics.yy",},
@@ -42,6 +43,7 @@
     {"name":"obj_blockDowntown","order":3,"path":"objects/obj_blockDowntown/obj_blockDowntown.yy",},
     {"name":"obj_blockIndustrial","order":4,"path":"objects/obj_blockIndustrial/obj_blockIndustrial.yy",},
     {"name":"obj_blockPlains","order":5,"path":"objects/obj_blockPlains/obj_blockPlains.yy",},
+    {"name":"obj_blockStoneblock","order":14,"path":"objects/obj_blockStoneblock/obj_blockStoneblock.yy",},
     {"name":"obj_blockSuburbs","order":6,"path":"objects/obj_blockSuburbs/obj_blockSuburbs.yy",},
     {"name":"obj_characterCreation","order":1,"path":"objects/obj_characterCreation/obj_characterCreation.yy",},
     {"name":"obj_colorSliderBlue","order":2,"path":"objects/obj_colorSliderBlue/obj_colorSliderBlue.yy",},
@@ -57,7 +59,6 @@
     {"name":"obj_oneWayTreeLeaves","order":13,"path":"objects/obj_oneWayTreeLeaves/obj_oneWayTreeLeaves.yy",},
     {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_spikyBoy","order":9,"path":"objects/obj_spikyBoy/obj_spikyBoy.yy",},
-    {"name":"obj_stoneBrick","order":14,"path":"objects/obj_stoneBrick/obj_stoneBrick.yy",},
     {"name":"obj_textField","order":1,"path":"objects/obj_textField/obj_textField.yy",},
     {"name":"obj_uiButton","order":2,"path":"objects/obj_uiButton/obj_uiButton.yy",},
     {"name":"room_cave","order":5,"path":"rooms/room_cave/room_cave.yy",},

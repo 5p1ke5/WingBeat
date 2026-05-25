@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_stoneBrick",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_blockStoneblock",
+  "eventList":[],
   "managed":true,
-  "name":"obj_stoneBrick",
+  "name":"obj_blockStoneblock",
   "overriddenProperties":[],
   "parent":{
     "name":"blocks",
     "path":"folders/Objects/blocks.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_block",
+    "path":"objects/obj_block/obj_block.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

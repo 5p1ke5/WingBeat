@@ -6,13 +6,13 @@ var _collisions = hitbox_step();
 
 
 //Here we will go through the collisions array. We will uncomment this once we have collisions.
-/*
 for (var _i = 0; _i < array_length(_collisions); _i++) 
 {   
 	var _collision = _collisions[_i];
 	
+	room_restart();
 }
-*/
+
 
 ///Set sprite properties.
 doll_animate();
