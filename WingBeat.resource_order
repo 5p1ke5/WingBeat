@@ -24,10 +24,10 @@
     {"name":"pants","order":1,"path":"folders/Sprites/dolls/clothes/pants.yy",},
     {"name":"shoes","order":2,"path":"folders/Sprites/dolls/clothes/shoes.yy",},
     {"name":"wings","order":5,"path":"folders/Sprites/dolls/wings.yy",},
-    {"name":"Zone","order":9,"path":"folders/Sprites/Zone.yy",},
     {"name":"gui","order":6,"path":"folders/Sprites/gui.yy",},
     {"name":"TileSet","order":8,"path":"folders/Sprites/TileSet.yy",},
     {"name":"UI","order":3,"path":"folders/Sprites/UI.yy",},
+    {"name":"Zone","order":9,"path":"folders/Sprites/Zone.yy",},
     {"name":"TileSets","order":8,"path":"folders/TileSets.yy",},
   ],
   "ResourceOrderSettings":[
