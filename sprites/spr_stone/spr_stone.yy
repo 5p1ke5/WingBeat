@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Decor",
-    "path":"folders/Sprites/Decor.yy",
+    "name":"decor",
+    "path":"folders/Sprites/decor.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
