@@ -20,6 +20,7 @@
     {"name":"inst_C6DCCD9","path":"rooms/room_overworld/room_overworld.yy",},
     {"name":"inst_198AB8C1","path":"rooms/room_overworld/room_overworld.yy",},
     {"name":"inst_70760052","path":"rooms/room_overworld/room_overworld.yy",},
+    {"name":"inst_6B27AD2D","path":"rooms/room_overworld/room_overworld.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -41,6 +42,7 @@
         {"$GMRInstance":"v4","%Name":"inst_30CFC025","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_30CFC025","objectId":{"name":"obj_blockDowntown","path":"objects/obj_blockDowntown/obj_blockDowntown.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":18.0,"scaleY":6.3333335,"x":1984.0,"y":736.0,},
         {"$GMRInstance":"v4","%Name":"inst_198AB8C1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_198AB8C1","objectId":{"name":"obj_oneWayTreeLeaves","path":"objects/obj_oneWayTreeLeaves/obj_oneWayTreeLeaves.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":19.333334,"scaleY":8.0,"x":4832.0,"y":2304.0,},
         {"$GMRInstance":"v4","%Name":"inst_C6DCCD9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C6DCCD9","objectId":{"name":"obj_oneWayTreeLeaves","path":"objects/obj_oneWayTreeLeaves/obj_oneWayTreeLeaves.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":27.666668,"scaleY":7.5,"x":4608.0,"y":2528.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6B27AD2D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B27AD2D","objectId":{"name":"obj_spikyBoy","path":"objects/obj_spikyBoy/obj_spikyBoy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1616.0,"y":1680.0,},
       ],"layers":[],"name":"Blocks","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_4653AAC8","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_4653AAC8","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":8.333333,"scaleY":33.666668,"spriteId":{"name":"spr_treeLog","path":"sprites/spr_treeLog/spr_treeLog.yy",},"x":5056.0,"y":2688.0,},

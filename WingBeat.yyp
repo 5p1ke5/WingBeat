@@ -80,6 +80,7 @@
     {"id":{"name":"obj_oneWayTreeLeaves","path":"objects/obj_oneWayTreeLeaves/obj_oneWayTreeLeaves.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_speechBalloon","path":"objects/obj_speechBalloon/obj_speechBalloon.yy",},},
+    {"id":{"name":"obj_spikyBoy","path":"objects/obj_spikyBoy/obj_spikyBoy.yy",},},
     {"id":{"name":"obj_stoneBrick","path":"objects/obj_stoneBrick/obj_stoneBrick.yy",},},
     {"id":{"name":"obj_textField","path":"objects/obj_textField/obj_textField.yy",},},
     {"id":{"name":"obj_uiButton","path":"objects/obj_uiButton/obj_uiButton.yy",},},
