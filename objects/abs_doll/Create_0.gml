@@ -1,8 +1,6 @@
 /// @description Initializes variables, position at spawn.
 
-hitbox_initialize([abs_enemy]);
-
-
+hitbox_initialize([HURTBOX]);
 phys_initialize(0.2, 0.2);
 	
 //Doll movement control things.

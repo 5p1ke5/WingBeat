@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"abs_enemy",
+  "%Name":"abs_hurtbox",
   "eventList":[],
   "managed":true,
-  "name":"abs_enemy",
+  "name":"abs_hurtbox",
   "overriddenProperties":[],
   "parent":{
     "name":"abstract",

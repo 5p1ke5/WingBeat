@@ -10,8 +10,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"abs_enemy",
-    "path":"objects/abs_enemy/abs_enemy.yy",
+    "name":"abs_hurtbox",
+    "path":"objects/abs_hurtbox/abs_hurtbox.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

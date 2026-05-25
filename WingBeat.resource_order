@@ -34,8 +34,8 @@
   "ResourceOrderSettings":[
     {"name":"fnt_gothic","order":1,"path":"fonts/fnt_gothic/fnt_gothic.yy",},
     {"name":"fnt_speech","order":2,"path":"fonts/fnt_speech/fnt_speech.yy",},
-    {"name":"abs_enemy","order":4,"path":"objects/abs_enemy/abs_enemy.yy",},
     {"name":"abs_ground","order":2,"path":"objects/abs_ground/abs_ground.yy",},
+    {"name":"abs_hurtbox","order":4,"path":"objects/abs_hurtbox/abs_hurtbox.yy",},
     {"name":"abs_menu","order":3,"path":"objects/abs_menu/abs_menu.yy",},
     {"name":"abs_physics","order":1,"path":"objects/abs_physics/abs_physics.yy",},
     {"name":"obj_blockBadlands","order":1,"path":"objects/obj_blockBadlands/obj_blockBadlands.yy",},
