@@ -248,7 +248,7 @@ function doll_input_dash(_rightReleased, _leftReleased)
 function doll_input_interact(_upReleased)
 {
 	
-	interact = place_meeting(x, y, INTERACTABLE)
+	interact = instance_place(x, y, INTERACTABLE);
 
 	//update alert. TODO: once interactables are added add a thing that sets 'interact' to 'true'
 	alert = "";

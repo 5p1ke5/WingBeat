@@ -39,8 +39,6 @@
     {"$GMFolder":"","%Name":"doors","folderPath":"folders/Sprites/doors.yy","name":"doors","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"enemies","folderPath":"folders/Sprites/enemies.yy","name":"enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"gui","folderPath":"folders/Sprites/gui.yy","name":"gui","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"level features","folderPath":"folders/Sprites/level features.yy","name":"level features","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"doors","folderPath":"folders/Sprites/level features/doors.yy","name":"doors","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"TileSet","folderPath":"folders/Sprites/TileSet.yy","name":"TileSet","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Sprites/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Zone","folderPath":"folders/Sprites/Zone.yy","name":"Zone","resourceType":"GMFolder","resourceVersion":"2.0",},

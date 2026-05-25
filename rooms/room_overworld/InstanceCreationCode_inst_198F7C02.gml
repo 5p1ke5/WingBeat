@@ -1,0 +1,1 @@
+transition_initialize(room_cave, 512, 1104);

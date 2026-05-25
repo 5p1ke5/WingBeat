@@ -29,8 +29,6 @@
     {"name":"doors","order":12,"path":"folders/Sprites/doors.yy",},
     {"name":"enemies","order":11,"path":"folders/Sprites/enemies.yy",},
     {"name":"gui","order":6,"path":"folders/Sprites/gui.yy",},
-    {"name":"level features","order":13,"path":"folders/Sprites/level features.yy",},
-    {"name":"doors","order":1,"path":"folders/Sprites/level features/doors.yy",},
     {"name":"TileSet","order":8,"path":"folders/Sprites/TileSet.yy",},
     {"name":"UI","order":3,"path":"folders/Sprites/UI.yy",},
     {"name":"Zone","order":9,"path":"folders/Sprites/Zone.yy",},
