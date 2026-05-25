@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spikyBoy",
+  "%Name":"obj_door",
   "eventList":[],
   "managed":true,
-  "name":"obj_spikyBoy",
+  "name":"obj_door",
   "overriddenProperties":[],
   "parent":{
-    "name":"hazards",
-    "path":"folders/Objects/hazards.yy",
+    "name":"doors",
+    "path":"folders/Objects/doors.yy",
   },
   "parentObjectId":{
-    "name":"abs_hurtbox",
-    "path":"objects/abs_hurtbox/abs_hurtbox.yy",
+    "name":"abs_interactableTransition",
+    "path":"objects/abs_interactableTransition/abs_interactableTransition.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -29,11 +29,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"spr_spikyBoy",
-    "path":"sprites/spr_spikyBoy/spr_spikyBoy.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

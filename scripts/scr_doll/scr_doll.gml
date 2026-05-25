@@ -243,5 +243,50 @@ function doll_input_dash(_rightReleased, _leftReleased)
 }
 
 
+/// @function doll_input_interact(_upReleased)
+/// @descr Checks if the doll is touching an interactable. If so, lets them interact with it.
+function doll_input_interact(_upReleased)
+{
+	
+	interact = place_meeting(x, y, INTERACTABLE)
+
+	//update alert. TODO: once interactables are added add a thing that sets 'interact' to 'true'
+	alert = "";
+
+	if (interact)
+	{
+		alert += "?";
+		
+		if (_upReleased)
+		{
+			with (interact)
+			{
+				event_user(0);
+			}
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
