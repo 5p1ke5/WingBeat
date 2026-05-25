@@ -28,6 +28,7 @@
     {"name":"wings","order":5,"path":"folders/Sprites/dolls/wings.yy",},
     {"name":"doors","order":12,"path":"folders/Sprites/doors.yy",},
     {"name":"enemies","order":11,"path":"folders/Sprites/enemies.yy",},
+    {"name":"items","order":14,"path":"folders/Sprites/items.yy",},
     {"name":"gui","order":6,"path":"folders/Sprites/gui.yy",},
     {"name":"TileSet","order":8,"path":"folders/Sprites/TileSet.yy",},
     {"name":"UI","order":3,"path":"folders/Sprites/UI.yy",},

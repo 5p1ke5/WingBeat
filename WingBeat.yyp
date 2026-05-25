@@ -38,6 +38,7 @@
     {"$GMFolder":"","%Name":"wings","folderPath":"folders/Sprites/dolls/wings.yy","name":"wings","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"doors","folderPath":"folders/Sprites/doors.yy","name":"doors","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"enemies","folderPath":"folders/Sprites/enemies.yy","name":"enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"items","folderPath":"folders/Sprites/items.yy","name":"items","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"gui","folderPath":"folders/Sprites/gui.yy","name":"gui","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"TileSet","folderPath":"folders/Sprites/TileSet.yy","name":"TileSet","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Sprites/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -49,7 +50,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.15",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"WingBeat",
   "resources":[
@@ -124,6 +125,7 @@
     {"id":{"name":"spr_blockIndustrial","path":"sprites/spr_blockIndustrial/spr_blockIndustrial.yy",},},
     {"id":{"name":"spr_blockPlains","path":"sprites/spr_blockPlains/spr_blockPlains.yy",},},
     {"id":{"name":"spr_blockSuburbs","path":"sprites/spr_blockSuburbs/spr_blockSuburbs.yy",},},
+    {"id":{"name":"spr_bomb","path":"sprites/spr_bomb/spr_bomb.yy",},},
     {"id":{"name":"spr_colorSliderMarker","path":"sprites/spr_colorSliderMarker/spr_colorSliderMarker.yy",},},
     {"id":{"name":"spr_doll","path":"sprites/spr_doll/spr_doll.yy",},},
     {"id":{"name":"spr_dollFace","path":"sprites/spr_dollFace/spr_dollFace.yy",},},
