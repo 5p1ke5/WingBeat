@@ -80,6 +80,7 @@
     {"id":{"name":"obj_speechBalloon","path":"objects/obj_speechBalloon/obj_speechBalloon.yy",},},
     {"id":{"name":"obj_textField","path":"objects/obj_textField/obj_textField.yy",},},
     {"id":{"name":"obj_uiButton","path":"objects/obj_uiButton/obj_uiButton.yy",},},
+    {"id":{"name":"room_cave","path":"rooms/room_cave/room_cave.yy",},},
     {"id":{"name":"room_characterCreation","path":"rooms/room_characterCreation/room_characterCreation.yy",},},
     {"id":{"name":"room_initialize","path":"rooms/room_initialize/room_initialize.yy",},},
     {"id":{"name":"room_overworld","path":"rooms/room_overworld/room_overworld.yy",},},
@@ -138,6 +139,7 @@
     {"id":{"name":"spr_oneWaySuburbs","path":"sprites/spr_oneWaySuburbs/spr_oneWaySuburbs.yy",},},
     {"id":{"name":"spr_oneWayTreeLeaves","path":"sprites/spr_oneWayTreeLeaves/spr_oneWayTreeLeaves.yy",},},
     {"id":{"name":"spr_overworldBG","path":"sprites/spr_overworldBG/spr_overworldBG.yy",},},
+    {"id":{"name":"spr_stone","path":"sprites/spr_stone/spr_stone.yy",},},
     {"id":{"name":"spr_treeBranch","path":"sprites/spr_treeBranch/spr_treeBranch.yy",},},
     {"id":{"name":"spr_treeLog","path":"sprites/spr_treeLog/spr_treeLog.yy",},},
     {"id":{"name":"spr_uiButton","path":"sprites/spr_uiButton/spr_uiButton.yy",},},
@@ -153,6 +155,7 @@
     {"roomId":{"name":"room_title","path":"rooms/room_title/room_title.yy",},},
     {"roomId":{"name":"room_overworld","path":"rooms/room_overworld/room_overworld.yy",},},
     {"roomId":{"name":"room_characterCreation","path":"rooms/room_characterCreation/room_characterCreation.yy",},},
+    {"roomId":{"name":"room_cave","path":"rooms/room_cave/room_cave.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
