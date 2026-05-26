@@ -28,6 +28,7 @@
     {"name":"wings","order":5,"path":"folders/Sprites/dolls/wings.yy",},
     {"name":"doors","order":12,"path":"folders/Sprites/doors.yy",},
     {"name":"enemies","order":11,"path":"folders/Sprites/enemies.yy",},
+    {"name":"collectibles","order":16,"path":"folders/Sprites/collectibles.yy",},
     {"name":"gui","order":6,"path":"folders/Sprites/gui.yy",},
     {"name":"items","order":14,"path":"folders/Sprites/items.yy",},
     {"name":"TileSet","order":8,"path":"folders/Sprites/TileSet.yy",},
@@ -109,7 +110,6 @@
     {"name":"spr_dollShoes1","order":3,"path":"sprites/spr_dollShoes1/spr_dollShoes1.yy",},
     {"name":"spr_dollShoes1Jump","order":4,"path":"sprites/spr_dollShoes1Jump/spr_dollShoes1Jump.yy",},
     {"name":"spr_dollShoes1Run","order":5,"path":"sprites/spr_dollShoes1Run/spr_dollShoes1Run.yy",},
-    {"name":"spr_magicOrb","order":15,"path":"sprites/spr_magicOrb/spr_magicOrb.yy",},
     {"name":"spr_oneWay","order":7,"path":"sprites/spr_oneWay/spr_oneWay.yy",},
     {"name":"spr_oneWayBadlands","order":8,"path":"sprites/spr_oneWayBadlands/spr_oneWayBadlands.yy",},
     {"name":"spr_onewayDowntown","order":9,"path":"sprites/spr_onewayDowntown/spr_onewayDowntown.yy",},
@@ -122,5 +122,6 @@
     {"name":"spr_stoneBrick","order":15,"path":"sprites/spr_stoneBrick/spr_stoneBrick.yy",},
     {"name":"spr_uiButton","order":2,"path":"sprites/spr_uiButton/spr_uiButton.yy",},
     {"name":"spr_uiTextField","order":1,"path":"sprites/spr_uiTextField/spr_uiTextField.yy",},
+    {"name":"spr_yellowCrystal","order":1,"path":"sprites/spr_yellowCrystal/spr_yellowCrystal.yy",},
   ],
 }
