@@ -154,6 +154,7 @@
     {"id":{"name":"spr_feather","path":"sprites/spr_feather/spr_feather.yy",},},
     {"id":{"name":"spr_label","path":"sprites/spr_label/spr_label.yy",},},
     {"id":{"name":"spr_magicOrb","path":"sprites/spr_magicOrb/spr_magicOrb.yy",},},
+    {"id":{"name":"spr_moon","path":"sprites/spr_moon/spr_moon.yy",},},
     {"id":{"name":"spr_oneWay","path":"sprites/spr_oneWay/spr_oneWay.yy",},},
     {"id":{"name":"spr_oneWayBadlands","path":"sprites/spr_oneWayBadlands/spr_oneWayBadlands.yy",},},
     {"id":{"name":"spr_onewayDowntown","path":"sprites/spr_onewayDowntown/spr_onewayDowntown.yy",},},
