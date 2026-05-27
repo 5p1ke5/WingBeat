@@ -173,6 +173,7 @@
     {"id":{"name":"spr_oneWayTreeLeaves","path":"sprites/spr_oneWayTreeLeaves/spr_oneWayTreeLeaves.yy",},},
     {"id":{"name":"spr_overworldBG","path":"sprites/spr_overworldBG/spr_overworldBG.yy",},},
     {"id":{"name":"spr_pinkBrickBlock","path":"sprites/spr_pinkBrickBlock/spr_pinkBrickBlock.yy",},},
+    {"id":{"name":"spr_pumpkinScarecrow","path":"sprites/spr_pumpkinScarecrow/spr_pumpkinScarecrow.yy",},},
     {"id":{"name":"spr_spikyBoy","path":"sprites/spr_spikyBoy/spr_spikyBoy.yy",},},
     {"id":{"name":"spr_stone","path":"sprites/spr_stone/spr_stone.yy",},},
     {"id":{"name":"spr_stoneBrick","path":"sprites/spr_stoneBrick/spr_stoneBrick.yy",},},

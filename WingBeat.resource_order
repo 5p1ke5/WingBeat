@@ -132,6 +132,7 @@
     {"name":"spr_oneWaySuburbs","order":12,"path":"sprites/spr_oneWaySuburbs/spr_oneWaySuburbs.yy",},
     {"name":"spr_oneWayTreeLeaves","order":14,"path":"sprites/spr_oneWayTreeLeaves/spr_oneWayTreeLeaves.yy",},
     {"name":"spr_pinkBrickBlock","order":17,"path":"sprites/spr_pinkBrickBlock/spr_pinkBrickBlock.yy",},
+    {"name":"spr_pumpkinScarecrow","order":1,"path":"sprites/spr_pumpkinScarecrow/spr_pumpkinScarecrow.yy",},
     {"name":"spr_stone","order":1,"path":"sprites/spr_stone/spr_stone.yy",},
     {"name":"spr_stoneBrick","order":15,"path":"sprites/spr_stoneBrick/spr_stoneBrick.yy",},
     {"name":"spr_uiButton","order":2,"path":"sprites/spr_uiButton/spr_uiButton.yy",},
