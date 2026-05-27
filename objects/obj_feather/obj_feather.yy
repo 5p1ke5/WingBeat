@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_feather",
-    "path":"sprites/spr_feather/spr_feather.yy",
+    "name":"spr_feather_1",
+    "path":"sprites/spr_feather_1/spr_feather_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

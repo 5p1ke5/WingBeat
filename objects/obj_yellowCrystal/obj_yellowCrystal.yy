@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_yellowCrystal",
-    "path":"sprites/spr_yellowCrystal/spr_yellowCrystal.yy",
+    "name":"spr_yellowCrystal_1",
+    "path":"sprites/spr_yellowCrystal_1/spr_yellowCrystal_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

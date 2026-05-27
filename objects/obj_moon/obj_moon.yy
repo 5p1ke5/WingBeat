@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_moon",
-    "path":"sprites/spr_moon/spr_moon.yy",
+    "name":"spr_moon_1",
+    "path":"sprites/spr_moon_1/spr_moon_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
