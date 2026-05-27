@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_magicOrb_1",
-    "path":"sprites/spr_magicOrb_1/spr_magicOrb_1.yy",
+    "name":"spr_magicOrb",
+    "path":"sprites/spr_magicOrb/spr_magicOrb.yy",
   },
   "spriteMaskId":null,
   "visible":true,
