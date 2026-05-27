@@ -1,8 +1,9 @@
-/// @function transition_initialize(_roomTo, _spawnX, _spawnY, _spawnHsp, _spawnVsp, _locked, _price)
+/// @function transition_initialize(_roomTo, _spawnX, _spawnY, _feathers = 0, _spawnHsp = 0, _spawnVsp = 0)
 /// @description Initializes variables for a room transition.
 /// @param _roomTo Index of the room the player will be sent to.
 /// @param _spawnX X postiion the player will be spawned at in the room.
 /// @param _spawnY Y postiion the player will be spawned at in the room.
+/// @param _feathers How many feathers are used to open the door.
 /// @param _spawnHsp hsp the player will be spawned with.
 /// @param _spawnVsp vsp the player will be spawned with.
 function transition_initialize(_roomTo, _spawnX, _spawnY, _feathers = 0, _spawnHsp = 0, _spawnVsp = 0)
