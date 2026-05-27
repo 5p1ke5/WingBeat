@@ -138,6 +138,7 @@
     {"name":"spr_pumpkinScarecrow","order":1,"path":"sprites/spr_pumpkinScarecrow/spr_pumpkinScarecrow.yy",},
     {"name":"spr_stone","order":1,"path":"sprites/spr_stone/spr_stone.yy",},
     {"name":"spr_stoneBrick","order":15,"path":"sprites/spr_stoneBrick/spr_stoneBrick.yy",},
+    {"name":"spr_tank","order":4,"path":"sprites/spr_tank/spr_tank.yy",},
     {"name":"spr_uiButton","order":2,"path":"sprites/spr_uiButton/spr_uiButton.yy",},
     {"name":"spr_uiTextField","order":1,"path":"sprites/spr_uiTextField/spr_uiTextField.yy",},
     {"name":"spr_yellowCrystal","order":7,"path":"sprites/spr_yellowCrystal/spr_yellowCrystal.yy",},

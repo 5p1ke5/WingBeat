@@ -179,6 +179,7 @@
     {"id":{"name":"spr_spikyBoy","path":"sprites/spr_spikyBoy/spr_spikyBoy.yy",},},
     {"id":{"name":"spr_stone","path":"sprites/spr_stone/spr_stone.yy",},},
     {"id":{"name":"spr_stoneBrick","path":"sprites/spr_stoneBrick/spr_stoneBrick.yy",},},
+    {"id":{"name":"spr_tank","path":"sprites/spr_tank/spr_tank.yy",},},
     {"id":{"name":"spr_treeBranch","path":"sprites/spr_treeBranch/spr_treeBranch.yy",},},
     {"id":{"name":"spr_treeLog","path":"sprites/spr_treeLog/spr_treeLog.yy",},},
     {"id":{"name":"spr_uiButton","path":"sprites/spr_uiButton/spr_uiButton.yy",},},
