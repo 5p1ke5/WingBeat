@@ -52,7 +52,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.15",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"WingBeat",
   "resources":[
@@ -162,6 +162,8 @@
     {"id":{"name":"spr_magicOrb","path":"sprites/spr_magicOrb/spr_magicOrb.yy",},},
     {"id":{"name":"spr_missileLauncherLeft","path":"sprites/spr_missileLauncherLeft/spr_missileLauncherLeft.yy",},},
     {"id":{"name":"spr_missileLauncherRight","path":"sprites/spr_missileLauncherRight/spr_missileLauncherRight.yy",},},
+    {"id":{"name":"spr_missileLeft","path":"sprites/spr_missileLeft/spr_missileLeft.yy",},},
+    {"id":{"name":"spr_missileRight","path":"sprites/spr_missileRight/spr_missileRight.yy",},},
     {"id":{"name":"spr_moon","path":"sprites/spr_moon/spr_moon.yy",},},
     {"id":{"name":"spr_oneWay","path":"sprites/spr_oneWay/spr_oneWay.yy",},},
     {"id":{"name":"spr_oneWayBadlands","path":"sprites/spr_oneWayBadlands/spr_oneWayBadlands.yy",},},
