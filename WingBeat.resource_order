@@ -118,6 +118,7 @@
     {"name":"spr_dollShoes1","order":3,"path":"sprites/spr_dollShoes1/spr_dollShoes1.yy",},
     {"name":"spr_dollShoes1Jump","order":4,"path":"sprites/spr_dollShoes1Jump/spr_dollShoes1Jump.yy",},
     {"name":"spr_dollShoes1Run","order":5,"path":"sprites/spr_dollShoes1Run/spr_dollShoes1Run.yy",},
+    {"name":"spr_doorLock","order":1,"path":"sprites/spr_doorLock/spr_doorLock.yy",},
     {"name":"spr_feather_1","order":4,"path":"sprites/spr_feather_1/spr_feather_1.yy",},
     {"name":"spr_feather","order":2,"path":"sprites/spr_feather/spr_feather.yy",},
     {"name":"spr_magicOrb_1","order":5,"path":"sprites/spr_magicOrb_1/spr_magicOrb_1.yy",},

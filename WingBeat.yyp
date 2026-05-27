@@ -156,6 +156,7 @@
     {"id":{"name":"spr_dollShoes1Jump","path":"sprites/spr_dollShoes1Jump/spr_dollShoes1Jump.yy",},},
     {"id":{"name":"spr_dollShoes1Run","path":"sprites/spr_dollShoes1Run/spr_dollShoes1Run.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
+    {"id":{"name":"spr_doorLock","path":"sprites/spr_doorLock/spr_doorLock.yy",},},
     {"id":{"name":"spr_feather_1","path":"sprites/spr_feather_1/spr_feather_1.yy",},},
     {"id":{"name":"spr_feather","path":"sprites/spr_feather/spr_feather.yy",},},
     {"id":{"name":"spr_label","path":"sprites/spr_label/spr_label.yy",},},

@@ -5,13 +5,19 @@
 /// @param _spawnY Y postiion the player will be spawned at in the room.
 /// @param _spawnHsp hsp the player will be spawned with.
 /// @param _spawnVsp vsp the player will be spawned with.
-function transition_initialize(_roomTo, _spawnX, _spawnY, _spawnHsp = 0, _spawnVsp = 0)
+function transition_initialize(_roomTo, _spawnX, _spawnY, _feathers = 0, _spawnHsp = 0, _spawnVsp = 0)
 {
 	roomTo = _roomTo;
 	spawnX = _spawnX;
 	spawnY = _spawnY;
 	spawnHsp = _spawnHsp;
 	spawnVsp = _spawnVsp;
+	feathers = _feathers;
+	
+	if (feathers > global.feathers)
+	{
+		sprite_index = spr_doorLock;	
+	}
 }
 
 /// @function transition_goto(_roomTo, _spawnX, _spawnY, _spawnHsp, _spawnVsp)
