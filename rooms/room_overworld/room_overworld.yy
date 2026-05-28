@@ -23,6 +23,7 @@
     {"name":"inst_198F7C02","path":"rooms/room_overworld/room_overworld.yy",},
     {"name":"inst_6036EE61","path":"rooms/room_overworld/room_overworld.yy",},
     {"name":"inst_1C78E3BA","path":"rooms/room_overworld/room_overworld.yy",},
+    {"name":"inst_74E1EB49","path":"rooms/room_overworld/room_overworld.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -49,6 +50,7 @@
         {"$GMRInstance":"v4","%Name":"inst_C6DCCD9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C6DCCD9","objectId":{"name":"obj_oneWayTreeLeaves","path":"objects/obj_oneWayTreeLeaves/obj_oneWayTreeLeaves.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":27.666668,"scaleY":7.5,"x":4608.0,"y":2528.0,},
         {"$GMRInstance":"v4","%Name":"inst_6036EE61","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6036EE61","objectId":{"name":"obj_feather","path":"objects/obj_feather/obj_feather.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":1056.0,},
         {"$GMRInstance":"v4","%Name":"inst_1C78E3BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C78E3BA","objectId":{"name":"obj_magicOrb","path":"objects/obj_magicOrb/obj_magicOrb.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":1008.0,},
+        {"$GMRInstance":"v4","%Name":"inst_74E1EB49","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_74E1EB49","objectId":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1840.0,"y":1216.0,},
       ],"layers":[],"name":"Blocks","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Sprites","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_4653AAC8","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_4653AAC8","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":8.333333,"scaleY":33.666668,"spriteId":{"name":"spr_treeLog","path":"sprites/spr_treeLog/spr_treeLog.yy",},"x":5056.0,"y":2688.0,},
