@@ -61,6 +61,7 @@
     {"name":"inst_F19B911","path":"rooms/room_cave/room_cave.yy",},
     {"name":"inst_43E54A1C","path":"rooms/room_cave/room_cave.yy",},
     {"name":"inst_33FB9FF2","path":"rooms/room_cave/room_cave.yy",},
+    {"name":"inst_47675949","path":"rooms/room_cave/room_cave.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -126,6 +127,7 @@
         {"$GMRInstance":"v4","%Name":"inst_F19B911","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_F19B911","objectId":{"name":"obj_blockStoneblock","path":"objects/obj_blockStoneblock/obj_blockStoneblock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.6666667,"scaleY":16.333338,"x":3728.0,"y":2208.0,},
         {"$GMRInstance":"v4","%Name":"inst_43E54A1C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_43E54A1C","objectId":{"name":"obj_blockStoneblock","path":"objects/obj_blockStoneblock/obj_blockStoneblock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.6666667,"scaleY":17.000004,"x":4208.0,"y":2112.0,},
         {"$GMRInstance":"v4","%Name":"inst_33FB9FF2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33FB9FF2","objectId":{"name":"obj_blockStoneblock","path":"objects/obj_blockStoneblock/obj_blockStoneblock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.6666667,"scaleY":16.333338,"x":5632.0,"y":2208.0,},
+        {"$GMRInstance":"v4","%Name":"inst_47675949","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47675949","objectId":{"name":"obj_blockStoneblock","path":"objects/obj_blockStoneblock/obj_blockStoneblock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.6666667,"scaleY":20.33334,"x":10160.0,"y":2112.0,},
       ],"layers":[],"name":"Blocks","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_1B28FE8A","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_1B28FE8A","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":214.33334,"scaleY":106.99999,"spriteId":{"name":"spr_stone","path":"sprites/spr_stone/spr_stone.yy",},"x":-32.0,"y":-0.00012207031,},
