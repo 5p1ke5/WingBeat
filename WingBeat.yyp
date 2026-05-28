@@ -84,6 +84,7 @@
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_feather","path":"objects/obj_feather/obj_feather.yy",},},
     {"id":{"name":"obj_gameOver","path":"objects/obj_gameOver/obj_gameOver.yy",},},
+    {"id":{"name":"obj_hoopH","path":"objects/obj_hoopH/obj_hoopH.yy",},},
     {"id":{"name":"obj_hoopV","path":"objects/obj_hoopV/obj_hoopV.yy",},},
     {"id":{"name":"obj_label","path":"objects/obj_label/obj_label.yy",},},
     {"id":{"name":"obj_magicOrb","path":"objects/obj_magicOrb/obj_magicOrb.yy",},},
