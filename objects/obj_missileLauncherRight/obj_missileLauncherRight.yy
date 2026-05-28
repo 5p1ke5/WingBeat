@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object44",
+  "%Name":"obj_missileLauncherRight",
   "eventList":[],
   "managed":true,
-  "name":"Object44",
+  "name":"obj_missileLauncherRight",
   "overriddenProperties":[],
   "parent":{
     "name":"hazards",

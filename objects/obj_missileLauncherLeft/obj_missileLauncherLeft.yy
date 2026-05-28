@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object46",
+  "%Name":"obj_missileLauncherLeft",
   "eventList":[],
   "managed":true,
-  "name":"Object46",
+  "name":"obj_missileLauncherLeft",
   "overriddenProperties":[],
   "parent":{
     "name":"hazards",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_missileLauncherLeft",
+    "path":"sprites/spr_missileLauncherLeft/spr_missileLauncherLeft.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
