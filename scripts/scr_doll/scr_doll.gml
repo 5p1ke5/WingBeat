@@ -272,7 +272,7 @@ function doll_input_pause(_pauseButton)
 {
 	if (_pauseButton)
 	{
-		room_goto()	
+		room_goto(room_pause)	
 	}
 }
 
