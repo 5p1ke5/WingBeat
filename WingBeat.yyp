@@ -53,7 +53,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.15",
   },
   "name":"WingBeat",
   "resources":[
@@ -89,6 +89,7 @@
     {"id":{"name":"obj_hoopV","path":"objects/obj_hoopV/obj_hoopV.yy",},},
     {"id":{"name":"obj_label","path":"objects/obj_label/obj_label.yy",},},
     {"id":{"name":"obj_magicOrb","path":"objects/obj_magicOrb/obj_magicOrb.yy",},},
+    {"id":{"name":"obj_menuPause","path":"objects/obj_menuPause/obj_menuPause.yy",},},
     {"id":{"name":"obj_missileLauncherLeft","path":"objects/obj_missileLauncherLeft/obj_missileLauncherLeft.yy",},},
     {"id":{"name":"obj_missileLauncherRight","path":"objects/obj_missileLauncherRight/obj_missileLauncherRight.yy",},},
     {"id":{"name":"obj_moon","path":"objects/obj_moon/obj_moon.yy",},},

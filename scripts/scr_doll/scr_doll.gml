@@ -272,6 +272,8 @@ function doll_input_pause(_pauseButton)
 {
 	if (_pauseButton)
 	{
+		global.roomPausedFrom = room;
+		room_persistent = true;
 		room_goto(room_pause)	
 	}
 }

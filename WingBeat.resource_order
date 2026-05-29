@@ -63,6 +63,7 @@
     {"name":"obj_hoopH","order":4,"path":"objects/obj_hoopH/obj_hoopH.yy",},
     {"name":"obj_hoopV","order":5,"path":"objects/obj_hoopV/obj_hoopV.yy",},
     {"name":"obj_magicOrb","order":2,"path":"objects/obj_magicOrb/obj_magicOrb.yy",},
+    {"name":"obj_menuPause","order":3,"path":"objects/obj_menuPause/obj_menuPause.yy",},
     {"name":"obj_missileLauncherLeft","order":2,"path":"objects/obj_missileLauncherLeft/obj_missileLauncherLeft.yy",},
     {"name":"obj_missileLauncherRight","order":1,"path":"objects/obj_missileLauncherRight/obj_missileLauncherRight.yy",},
     {"name":"obj_npc","order":6,"path":"objects/obj_npc/obj_npc.yy",},
