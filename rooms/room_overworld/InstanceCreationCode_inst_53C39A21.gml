@@ -1,0 +1,1 @@
+transition_initialize(room_construction_site, 512, 1104,)
