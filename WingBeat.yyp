@@ -136,6 +136,7 @@
     {"id":{"name":"scr_transition","path":"scripts/scr_transition/scr_transition.yy",},},
     {"id":{"name":"scr_zone","path":"scripts/scr_zone/scr_zone.yy",},},
     {"id":{"name":"sfx_dash","path":"sounds/sfx_dash/sfx_dash.yy",},},
+    {"id":{"name":"sfx_die","path":"sounds/sfx_die/sfx_die.yy",},},
     {"id":{"name":"sfx_flap","path":"sounds/sfx_flap/sfx_flap.yy",},},
     {"id":{"name":"sfx_jump","path":"sounds/sfx_jump/sfx_jump.yy",},},
     {"id":{"name":"spr_armA","path":"sprites/spr_armA/spr_armA.yy",},},
