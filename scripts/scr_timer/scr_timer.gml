@@ -11,8 +11,8 @@ function timer_initialize(_duration, _endFunction = noone, _time = _duration, _l
 	endFunction = _endFunction;
 }
 
-/// @function timer_step()
-/// @description decrements a timer during the step event..
+/// @function timer_step(_decrement = 1)
+/// @description decrements a timer during the step event. If end of timer is reached, calls endfunction and loops if flagged to do so, then returns true. Otherwise returns false.
 function timer_step(_decrement = 1)
 {
 	if (time > 0)
@@ -24,7 +24,10 @@ function timer_step(_decrement = 1)
 	{
 		if (endFunction != noone) {endFunction();}
 		timer_reset();
+		return true;
 	}
+	
+	return false;
 }
 
 /// @function timer_reset()

@@ -265,9 +265,16 @@ function doll_input_interact(_upReleased)
 			}
 		}
 	}
-
 }
 
+
+function doll_input_pause(_pauseButton)
+{
+	if (_pauseButton)
+	{
+		room_goto()	
+	}
+}
 
 
 
