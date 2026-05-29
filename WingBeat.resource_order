@@ -112,6 +112,7 @@
     {"name":"sfx_flap","order":1,"path":"sounds/sfx_flap/sfx_flap.yy",},
     {"name":"spr_armA","order":2,"path":"sprites/spr_armA/spr_armA.yy",},
     {"name":"spr_armB","order":3,"path":"sprites/spr_armB/spr_armB.yy",},
+    {"name":"spr_bgGreen","order":1,"path":"sprites/spr_bgGreen/spr_bgGreen.yy",},
     {"name":"spr_blockArena","order":2,"path":"sprites/spr_blockArena/spr_blockArena.yy",},
     {"name":"spr_blockBadlands","order":1,"path":"sprites/spr_blockBadlands/spr_blockBadlands.yy",},
     {"name":"spr_blockDowntown","order":3,"path":"sprites/spr_blockDowntown/spr_blockDowntown.yy",},
