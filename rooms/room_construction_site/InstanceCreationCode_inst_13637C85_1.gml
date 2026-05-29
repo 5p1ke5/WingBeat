@@ -1,1 +1,1 @@
-transition_initialize(room_overworld, 1984, 1760);
+transition_initialize(room_overworld, 1984, 1760, 2);
