@@ -101,7 +101,6 @@
     {"id":{"name":"obj_oneWayTreeLeaves","path":"objects/obj_oneWayTreeLeaves/obj_oneWayTreeLeaves.yy",},},
     {"id":{"name":"obj_pinkBrickBlock","path":"objects/obj_pinkBrickBlock/obj_pinkBrickBlock.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},},
     {"id":{"name":"obj_speechBalloon","path":"objects/obj_speechBalloon/obj_speechBalloon.yy",},},
     {"id":{"name":"obj_spikyBoy","path":"objects/obj_spikyBoy/obj_spikyBoy.yy",},},
     {"id":{"name":"obj_textField","path":"objects/obj_textField/obj_textField.yy",},},

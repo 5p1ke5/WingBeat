@@ -74,7 +74,6 @@
     {"name":"obj_oneWayTreeLeaves","order":13,"path":"objects/obj_oneWayTreeLeaves/obj_oneWayTreeLeaves.yy",},
     {"name":"obj_pinkBrickBlock","order":16,"path":"objects/obj_pinkBrickBlock/obj_pinkBrickBlock.yy",},
     {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
-    {"name":"obj_score","order":14,"path":"objects/obj_score/obj_score.yy",},
     {"name":"obj_textField","order":1,"path":"objects/obj_textField/obj_textField.yy",},
     {"name":"obj_uiButton","order":2,"path":"objects/obj_uiButton/obj_uiButton.yy",},
     {"name":"obj_yellowCrystal","order":3,"path":"objects/obj_yellowCrystal/obj_yellowCrystal.yy",},

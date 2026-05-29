@@ -1,1 +1,0 @@
-myscore = 0
