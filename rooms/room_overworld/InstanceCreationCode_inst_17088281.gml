@@ -1,0 +1,1 @@
+transition_initialize(room_blueMap, 512, 1104);
