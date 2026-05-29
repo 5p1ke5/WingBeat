@@ -52,7 +52,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.15",
   },
   "name":"WingBeat",
   "resources":[
@@ -127,6 +127,7 @@
     {"id":{"name":"scr_meter","path":"scripts/scr_meter/scr_meter.yy",},},
     {"id":{"name":"scr_npc","path":"scripts/scr_npc/scr_npc.yy",},},
     {"id":{"name":"scr_phys","path":"scripts/scr_phys/scr_phys.yy",},},
+    {"id":{"name":"scr_timer","path":"scripts/scr_timer/scr_timer.yy",},},
     {"id":{"name":"scr_transition","path":"scripts/scr_transition/scr_transition.yy",},},
     {"id":{"name":"scr_zone","path":"scripts/scr_zone/scr_zone.yy",},},
     {"id":{"name":"sfx_dash","path":"sounds/sfx_dash/sfx_dash.yy",},},
