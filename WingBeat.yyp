@@ -18,6 +18,7 @@
     {"$GMFolder":"","%Name":"blocks","folderPath":"folders/Objects/blocks.yy","name":"blocks","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"collectibles","folderPath":"folders/Objects/collectibles.yy","name":"collectibles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"doors","folderPath":"folders/Objects/doors.yy","name":"doors","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"decor","folderPath":"folders/Objects/decor.yy","name":"decor","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"hazards","folderPath":"folders/Objects/hazards.yy","name":"hazards","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"menus","folderPath":"folders/Objects/menus.yy","name":"menus","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"character creation","folderPath":"folders/Objects/menus/character creation.yy","name":"character creation","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -53,7 +54,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.15",
   },
   "name":"WingBeat",
   "resources":[
@@ -79,6 +80,7 @@
     {"id":{"name":"obj_blueBrickBlock","path":"objects/obj_blueBrickBlock/obj_blueBrickBlock.yy",},},
     {"id":{"name":"obj_chainLinkFence","path":"objects/obj_chainLinkFence/obj_chainLinkFence.yy",},},
     {"id":{"name":"obj_characterCreation","path":"objects/obj_characterCreation/obj_characterCreation.yy",},},
+    {"id":{"name":"obj_cloud","path":"objects/obj_cloud/obj_cloud.yy",},},
     {"id":{"name":"obj_colorSliderBlue","path":"objects/obj_colorSliderBlue/obj_colorSliderBlue.yy",},},
     {"id":{"name":"obj_colorSliderGreen","path":"objects/obj_colorSliderGreen/obj_colorSliderGreen.yy",},},
     {"id":{"name":"obj_colorSliderRed","path":"objects/obj_colorSliderRed/obj_colorSliderRed.yy",},},
@@ -118,6 +120,7 @@
     {"id":{"name":"room_cave","path":"rooms/room_cave/room_cave.yy",},},
     {"id":{"name":"room_characterCreation","path":"rooms/room_characterCreation/room_characterCreation.yy",},},
     {"id":{"name":"room_construction_site","path":"rooms/room_construction_site/room_construction_site.yy",},},
+    {"id":{"name":"room_greenRace","path":"rooms/room_greenRace/room_greenRace.yy",},},
     {"id":{"name":"room_initialize","path":"rooms/room_initialize/room_initialize.yy",},},
     {"id":{"name":"room_overworld","path":"rooms/room_overworld/room_overworld.yy",},},
     {"id":{"name":"room_pause","path":"rooms/room_pause/room_pause.yy",},},
@@ -155,6 +158,7 @@
     {"id":{"name":"spr_blueBrickBlock","path":"sprites/spr_blueBrickBlock/spr_blueBrickBlock.yy",},},
     {"id":{"name":"spr_bomb","path":"sprites/spr_bomb/spr_bomb.yy",},},
     {"id":{"name":"spr_chainLinkFence","path":"sprites/spr_chainLinkFence/spr_chainLinkFence.yy",},},
+    {"id":{"name":"spr_cloud","path":"sprites/spr_cloud/spr_cloud.yy",},},
     {"id":{"name":"spr_colorSliderMarker","path":"sprites/spr_colorSliderMarker/spr_colorSliderMarker.yy",},},
     {"id":{"name":"spr_doll","path":"sprites/spr_doll/spr_doll.yy",},},
     {"id":{"name":"spr_dollFace","path":"sprites/spr_dollFace/spr_dollFace.yy",},},
@@ -226,8 +230,12 @@
     {"roomId":{"name":"room_construction_site","path":"rooms/room_construction_site/room_construction_site.yy",},},
     {"roomId":{"name":"room_blueMap","path":"rooms/room_blueMap/room_blueMap.yy",},},
     {"roomId":{"name":"room_pause","path":"rooms/room_pause/room_pause.yy",},},
+<<<<<<< HEAD
     {"roomId":{"name":"room_blueMap_1","path":"rooms/room_blueMap_1/room_blueMap_1.yy",},},
     {"roomId":{"name":"room_blueMap_2","path":"rooms/room_blueMap_2/room_blueMap_2.yy",},},
+=======
+    {"roomId":{"name":"room_greenRace","path":"rooms/room_greenRace/room_greenRace.yy",},},
+>>>>>>> 04f2ef7e4cbe2856bf438a286ac1f69e18b10ccf
   ],
   "templateType":"game",
   "TextureGroups":[
