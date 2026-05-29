@@ -1,0 +1,1 @@
+label_initialize("You Win", , , 2, 2, 0, c_white, c_white, c_white, c_white, 1);
