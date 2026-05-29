@@ -38,7 +38,7 @@
 #macro UP_BUTTON (keyboard_check(vk_up)			 || keyboard_check(ord("W")) || gamepad_button_check(0, gp_padu))
 #macro A_BUTTON (keyboard_check(vk_space) || gamepad_button_check(0, gp_face1))
 #macro B_BUTTON (keyboard_check(ord("Z")) || gamepad_button_check(0, gp_face3))
-#macro X_BUTTON (keyboard_check(ord("X")) || gamepad_button_check(0, gp_face2))
+#macro X_BUTTON (keyboard_check(ord("X")) || keyboard_check(ord("Q")) || gamepad_button_check(0, gp_face2))
 #macro Y_BUTTON (keyboard_check(ord("C")) || gamepad_button_check(0, gp_face4))
 #macro FACE_BUTTON (A_BUTTON || B_BUTTON || X_BUTTON || Y_BUTTON) 
 #macro START_BUTTON ((gamepad_button_check(0, gp_start)) || (keyboard_check(vk_enter)))

@@ -193,11 +193,11 @@ function doll_input_move(_right, _left, _run)
 
 
 
-/// @function doll_input_dash(_rightReleased, _leftReleased)
+/// @function doll_input_dash(_rightReleased, _leftReleased, _upReleased, _downReleased, _dashButton)
 /// @descr Decrements dash input cooldowns. If right or left bttton is released before cooldown expires, performs a dash.
 /// @param _rightReleased right button released
 /// @param _leftReleased left button released
-function doll_input_dash(_rightReleased, _leftReleased)
+function doll_input_dash(_rightReleased, _leftReleased, _upReleased, _downReleased, _dashButton)
 {
 	if (dashCD > 0)
 	{	
@@ -206,7 +206,7 @@ function doll_input_dash(_rightReleased, _leftReleased)
 	}
 	
 	//decrement timers
-	if (dashInputRCD > 0) 
+	if (_dashButton) 
 	{ 
 		if (_rightReleased)
 		{
@@ -215,12 +215,7 @@ function doll_input_dash(_rightReleased, _leftReleased)
 			dashCD = DASH_CD;
 			audio_play_sound(sfx_dash, 0, false);
 		}
-		dashInputRCD-- 
-	}
 	
-	//decrement timers
-	if (dashInputLCD > 0) 
-	{ 
 		if (_leftReleased)
 		{
 			//dash
@@ -228,17 +223,22 @@ function doll_input_dash(_rightReleased, _leftReleased)
 			dashCD = DASH_CD;
 			audio_play_sound(sfx_dash, 0, false);
 		}
-		dashInputLCD-- 
-	}
 	
-	if (_rightReleased)
-	{
-		dashInputRCD = DASH_INPUT_CD;	
-	}
+		if (_upReleased)
+		{
+			//dash
+			vsp = -DASH_SPEED;
+			dashCD = DASH_CD;
+			audio_play_sound(sfx_dash, 0, false);
+		}
 	
-	if (_leftReleased)
-	{
-		dashInputLCD = DASH_INPUT_CD;	
+		if (_downReleased)
+		{
+			//dash
+			vsp = DASH_SPEED;
+			dashCD = DASH_CD;
+			audio_play_sound(sfx_dash, 0, false);
+		}
 	}
 }
 
