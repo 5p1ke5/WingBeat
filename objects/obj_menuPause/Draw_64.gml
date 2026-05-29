@@ -8,7 +8,7 @@ var _textY = window_get_height() / 16;
 var _textHeight = string_height(_text) * 2;
 
 var _featherX = window_get_width() / 2;
-var _featherY = window_get_height() / 4;
+var _featherY = window_get_height() / 2;
 var _featherHeight = sprite_get_height(spr_feather) * 2;
 
 
