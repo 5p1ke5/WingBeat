@@ -91,6 +91,8 @@
     {"name":"room_blueMap","order":7,"path":"rooms/room_blueMap/room_blueMap.yy",},
     {"name":"room_cave","order":5,"path":"rooms/room_cave/room_cave.yy",},
     {"name":"room_construction_site","order":6,"path":"rooms/room_construction_site/room_construction_site.yy",},
+    {"name":"room_hoopsA","order":2,"path":"rooms/room_hoopsA/room_hoopsA.yy",},
+    {"name":"room_hoopsB","order":1,"path":"rooms/room_hoopsB/room_hoopsB.yy",},
     {"name":"room_overworld","order":3,"path":"rooms/room_overworld/room_overworld.yy",},
     {"name":"room_pause","order":8,"path":"rooms/room_pause/room_pause.yy",},
     {"name":"room_raceB","order":1,"path":"rooms/room_raceB/room_raceB.yy",},
