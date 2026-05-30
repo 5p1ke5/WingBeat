@@ -1,0 +1,1 @@
+npc_initialize("Racear Johnny", "If you can get to the end in 30 seconds you get a Feather.");

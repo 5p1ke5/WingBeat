@@ -1,6 +1,7 @@
-/// @function timer_initialize()
+/// @function timer_initialize(_duration, _endFunction = noone, _time = _duration, _loop = false)
 /// @description intializes variables for a timer.
 /// @param _duration number of frames for the timer to count down. Positive = active, 0 = going off, -1 = inactive.
+/// @param _endFunction the function to run when the timer goes off.
 /// @param _time Starting time for the timer. Defaults to _duration.
 /// @param _loop Should the timer loop. Defaults to false.
 function timer_initialize(_duration, _endFunction = noone, _time = _duration, _loop = false)
