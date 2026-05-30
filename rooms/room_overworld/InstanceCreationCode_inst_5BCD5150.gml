@@ -1,0 +1,1 @@
+transition_initialize(room_raceB, 256, 960);

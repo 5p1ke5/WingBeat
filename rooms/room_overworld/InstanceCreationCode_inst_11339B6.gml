@@ -1,1 +1,1 @@
-transition_initialize(room_redMap, 512, 1104);
+transition_initialize(room_redMap, 512, 1104, 1);

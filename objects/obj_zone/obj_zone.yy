@@ -36,5 +36,5 @@
     "path":"sprites/spr_zone/spr_zone.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
