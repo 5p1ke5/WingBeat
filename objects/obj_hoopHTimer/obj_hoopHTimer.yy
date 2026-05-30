@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hoopV",
+  "%Name":"obj_hoopHTimer",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_hoopV",
+  "name":"obj_hoopHTimer",
   "overriddenProperties":[],
   "parent":{
     "name":"collectibles",
     "path":"folders/Objects/collectibles.yy",
   },
   "parentObjectId":{
-    "name":"obj_hoopH",
-    "path":"objects/obj_hoopH/obj_hoopH.yy",
+    "name":"obj_hoopVTimer",
+    "path":"objects/obj_hoopVTimer/obj_hoopVTimer.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_hoopV",
-    "path":"sprites/spr_hoopV/spr_hoopV.yy",
+    "name":"spr_hoopH",
+    "path":"sprites/spr_hoopH/spr_hoopH.yy",
   },
   "spriteMaskId":null,
   "visible":true,

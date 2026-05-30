@@ -13,7 +13,7 @@
 #region Rooms
 #macro ROOM_TITLE room_title
 #macro ROOM_CHARACTERCREATE room_characterCreation
-#macro ROOM_START room_raceD
+#macro ROOM_START room_hoopsA
 #macro ROOM_PAUSE room_pause
 #endregion
 
