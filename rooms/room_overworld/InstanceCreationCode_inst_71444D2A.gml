@@ -1,0 +1,1 @@
+transition_initialize(room_titleWin, 0, 0, 10);

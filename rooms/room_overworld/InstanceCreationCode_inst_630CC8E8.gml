@@ -1,2 +1,2 @@
-npc_initialize("Roger", "Hello! Welcome to sky world! If you see an ? above your head you can press up to interact with things.");
+npc_initialize("Roger", ["Hello! Welcome to sky world! If you see an ? above your head you can press up to interact with things.", "You win the game if you get all 10 feathers."]);
 doll_initialize(5, 2, 9, 0, 0, c_asian3, c_blonde, c_green, c_blue, c_brown);

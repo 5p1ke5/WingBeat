@@ -3,7 +3,7 @@
 function globals_initialize()
 {
 	global.money = 0;
-	global.feathers = 0;
+	global.feathersFound = array_create(10, false);
 	global.moons = 0;
 	global.orbs = 0;
 	global.crystals = 0;
