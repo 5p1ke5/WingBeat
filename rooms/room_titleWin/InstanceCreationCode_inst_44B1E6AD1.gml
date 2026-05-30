@@ -5,4 +5,4 @@ var _clickFunction = function()
 }
 
 
-button_initialize("START", _clickFunction);
+button_initialize("DONE", _clickFunction);

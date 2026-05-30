@@ -15,4 +15,4 @@ var _featherHeight = sprite_get_height(spr_feather) * 2;
 draw_text_ext_transformed(_textX, _textY, _text, _textHeight, room_width, 4, 4, 0);
 
 draw_sprite_ext(spr_feather, 0, _featherX, _featherY, 2, 2, 0, c_white, 1);
-draw_text_ext_transformed(_featherX, _featherY + _featherHeight, "Feathers - " + string(global.feathers),_textHeight, room_width/3, 2, 2, 0);
+draw_text_ext_transformed(_featherX, _featherY + _featherHeight, "Feathers - " + string(feather_number()),_textHeight, room_width/3, 2, 2, 0);
