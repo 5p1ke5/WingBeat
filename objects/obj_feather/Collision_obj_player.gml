@@ -1,2 +1,1 @@
-global.feathers++;
-instance_destroy();
+feather_collect();

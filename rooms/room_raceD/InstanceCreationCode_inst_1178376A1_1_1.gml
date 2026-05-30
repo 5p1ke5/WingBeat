@@ -1,2 +1,2 @@
-npc_initialize("Racear Davey", "If you can get to the end in 30 seconds you get a Feather. Remember to hold X or Q to dash!");
-doll_initialize(16, 10, 14, 0, 0, c_black1, c_purple, c_brown, c_dkgray, c_brown);
+npc_initialize("Racear Mike", "If you can get to the end in 20 seconds you get a Feather. Remember to hold X or Q to dash!");
+doll_initialize(16, 11, 14, 0, 0, c_black1, c_blue, c_brown, c_dkgray, c_brown);

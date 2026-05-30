@@ -1,1 +1,1 @@
-index = 1;
+feather_initialize(6)

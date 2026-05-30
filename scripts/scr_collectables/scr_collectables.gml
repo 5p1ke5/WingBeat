@@ -19,3 +19,10 @@ function feather_collect()
 	global.feathersFound[index] = true;
 	instance_destroy();
 }
+
+///@function feather_number()
+///@param Returns the number of feathers found.
+function feather_number()
+{
+	 return array_length(array_filter(global.feathersFound, function _fB(element, index) {return element;}))
+}

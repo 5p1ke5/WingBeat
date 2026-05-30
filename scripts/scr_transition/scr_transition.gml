@@ -15,7 +15,7 @@ function transition_initialize(_roomTo, _spawnX, _spawnY, _feathers = 0, _spawnH
 	spawnVsp = _spawnVsp;
 	feathers = _feathers;
 	
-	if (feathers > global.feathers)
+	if (feathers > feather_number())
 	{
 		sprite_index = spr_doorLock;	
 	}
