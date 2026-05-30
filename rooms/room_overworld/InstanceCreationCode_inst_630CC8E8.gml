@@ -1,0 +1,2 @@
+npc_initialize("Roger", "Hello! Welcome to sky world! If you see an ? above your head you can press up to interact with things.");
+doll_initialize(5, 2, 9, 0, 0, c_asian3, c_blonde, c_green, c_blue, c_brown);

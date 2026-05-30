@@ -1,0 +1,1 @@
+transition_initialize(room_hoopsA, 1280, 2400);
