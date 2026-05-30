@@ -68,7 +68,7 @@ function phys_force_add(_force, _accel, _max)
 		return _force;
 	}
 	
-	var _sign = sign(_accel);
+	var _sign = sign(_force + _accel);
 	
 	_force += _accel;
 	_force = min(abs(_force), _max);

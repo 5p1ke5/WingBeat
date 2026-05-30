@@ -91,6 +91,7 @@
     {"name":"room_pause","order":8,"path":"rooms/room_pause/room_pause.yy",},
     {"name":"room_raceB","order":1,"path":"rooms/room_raceB/room_raceB.yy",},
     {"name":"room_raceC","order":2,"path":"rooms/room_raceC/room_raceC.yy",},
+    {"name":"room_raceD","order":3,"path":"rooms/room_raceD/room_raceD.yy",},
     {"name":"room_redMap","order":10,"path":"rooms/room_redMap/room_redMap.yy",},
     {"name":"room_test","order":1,"path":"rooms/room_test/room_test.yy",},
     {"name":"room_title","order":2,"path":"rooms/room_title/room_title.yy",},
