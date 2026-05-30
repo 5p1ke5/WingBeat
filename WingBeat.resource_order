@@ -62,6 +62,7 @@
     {"name":"obj_colorSliderGreen","order":3,"path":"objects/obj_colorSliderGreen/obj_colorSliderGreen.yy",},
     {"name":"obj_colorSliderRed","order":4,"path":"objects/obj_colorSliderRed/obj_colorSliderRed.yy",},
     {"name":"obj_feather","order":1,"path":"objects/obj_feather/obj_feather.yy",},
+    {"name":"obj_featherMarker","order":8,"path":"objects/obj_featherMarker/obj_featherMarker.yy",},
     {"name":"obj_gameOver","order":2,"path":"objects/obj_gameOver/obj_gameOver.yy",},
     {"name":"obj_hoopH","order":4,"path":"objects/obj_hoopH/obj_hoopH.yy",},
     {"name":"obj_hoopHTimer","order":7,"path":"objects/obj_hoopHTimer/obj_hoopHTimer.yy",},

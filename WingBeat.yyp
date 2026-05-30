@@ -88,6 +88,7 @@
     {"id":{"name":"obj_colorSliderRed","path":"objects/obj_colorSliderRed/obj_colorSliderRed.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_feather","path":"objects/obj_feather/obj_feather.yy",},},
+    {"id":{"name":"obj_featherMarker","path":"objects/obj_featherMarker/obj_featherMarker.yy",},},
     {"id":{"name":"obj_gameOver","path":"objects/obj_gameOver/obj_gameOver.yy",},},
     {"id":{"name":"obj_hoopH","path":"objects/obj_hoopH/obj_hoopH.yy",},},
     {"id":{"name":"obj_hoopHTimer","path":"objects/obj_hoopHTimer/obj_hoopHTimer.yy",},},
